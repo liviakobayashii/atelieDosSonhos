@@ -14,17 +14,30 @@ a{
     color: var(--terracota);
     text-decoration: none;
 }
+
+
 #navbar {
     background-color: var(--terracota);
     height: 70px;
     display: flex;
     justify-content: space-between;    
+    align-items: center;
 }
 #navbar #logo {
     padding: 8px;
 }
+header nav {
+    background-color: #cf4a32;
+    margin-right: 8px;
+    display: flex;
+    border-radius: 5px;
+}
+header nav:hover {
+    cursor: pointer;
+}
+
 header nav img{
-    height: 50px;
+    height: 30px;
     padding: 8px;
 }
 #imgPropaganda{
@@ -50,6 +63,7 @@ header nav img{
     gap: 16px;
 }
 #categories .type {
+    padding:0px;
     display: flex;
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center;    /* Centraliza os itens horizontalmente */
@@ -61,6 +75,9 @@ header nav img{
     margin: auto;
     height: 100px;
     border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+
 }
 #categories .type p {
     text-align: center;
@@ -99,7 +116,21 @@ header nav img{
     text-align: center;
 }
 
-.products .price img {
+/* .products .price img {
     width: 30px; 
     margin-left: 10px; 
+} */
+.products .price .cart-icon:hover{
+    color: var(--terracota);
+    transition: 0.2s;
+    cursor: pointer;
+}
+footer {
+    font-size: 0.8em;
+    padding: 64px;
+    text-align: center;
+}
+
+@media screen and (min-width:830px) {
+
 }
