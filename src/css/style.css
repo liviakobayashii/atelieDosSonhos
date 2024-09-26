@@ -2,6 +2,7 @@
     --terracota: #B2361F;
 }
 body {
+    background-color: #fff2df;
 }
 h1 {
     font-size: 2.5em;
@@ -67,29 +68,34 @@ section:nth-child(1){
     justify-content: space-around;
 }
 .products {
+    background-color: #fff9f8;    
     margin: 32px;
     border-radius: 5%;
+    width: 280px;
+    box-shadow: 1px 2px 3px #00000047;
 }
-.products img{
-    width: 250px;
+
+.products img {
+    width: 100%;
     border-radius: 5% 5% 0 0;
 }
 .products .description {
+    display: flex;
+    flex-direction: column;
     padding: 8px;
 }
 .products .price {
-    border: 1px solid blue;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin-top: 8px; 
 }
+
 .products .price p {
     text-align: center;
 }
-.products .price img {
-    width: 30px;
-}
 
-footer{
-    font-size: 0.8em;
-    text-align: center;
+.products .price img {
+    width: 30px; 
+    margin-left: 10px; 
 }
