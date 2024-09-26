@@ -5,9 +5,14 @@ body {
     background-color: #fff2df;
 }
 h1 {
+    color: var(--terracota);
     font-size: 2.5em;
     padding: 64px 0 32px;
     text-align: center;
+}
+a{
+    color: var(--terracota);
+    text-decoration: none;
 }
 #navbar {
     background-color: var(--terracota);
@@ -35,8 +40,7 @@ header nav img{
     background-color: #edbfa8;
     height: 330px;
     } */
-section:nth-child(1){
-}
+
 #categories {
     margin: auto;
     max-width: 900px;
