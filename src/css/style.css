@@ -1,8 +1,9 @@
 :root {
     --terracota: #B2361F;
+    --light: #fff2df;
 }
 body {
-    background-color: #fff2df;
+    background-color: var(--light);
 }
 h1 {
     color: var(--terracota);
@@ -53,6 +54,17 @@ header nav img{
     background-color: #edbfa8;
     height: 330px;
     } */
+.toBack {
+    background-color: #f9dfb8;
+    width: 30px;
+    padding: 8PX;
+    margin: 32px 0 0 32px;
+    border-radius: 5px;
+}
+.toBack img {
+    width: 30px;
+    margin: auto;
+}
 
 #categories {
     margin: auto;
@@ -103,17 +115,28 @@ header nav img{
 .products .description {
     display: flex;
     flex-direction: column;
+    gap: 16px;
     padding: 8px;
 }
-.products .price {
+/* .products p {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 8px; 
-}
+} */
 
-.products .price p {
+.addCart{
+    background-color: var(--terracota);
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: bold;
     text-align: center;
+
+}
+.addCart:hover {
+    cursor: pointer;
+    filter:brightness(0.8);
+    transition: 0.2s;
 }
 
 /* .products .price img {
