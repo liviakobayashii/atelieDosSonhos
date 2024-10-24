@@ -15,7 +15,7 @@
                 <img src="src/assets/images/logoTeste.svg" alt="logo" srcset="">
             </div>
             <nav>
-                <img src="./src/assets/icons/shoppingCart.svg" alt="carrinho" srcset="">
+                <a href="./src/carrinho/view/carrinho.html"><img src="./src/assets/icons/shoppingCart.svg" alt="carrinho" srcset=""></a>
             </nav>
         </section>
         <div id="imgPropaganda">
@@ -66,7 +66,7 @@
                 <div class="description">
                     <p>Descrição do produto</p>
                     <p>R$40,00</p>
-                    <p class="addCart">Adicionar ao carrinho</p>
+                    <p onclick ="addCarrinho()" class="addCart">Adicionar ao carrinho</p>
                 </div>
             </div>
             <div class="products">
@@ -147,4 +147,7 @@
     <footer>&copy;Desenvolvido por Livia Kobayashi</footer>
 
 </body>
+
+<script src="./src/carrinho/view/carrinho.js"></script>
+<script src="./src/carrinho/controller/addCarrinho.js"></script>
 </html>
