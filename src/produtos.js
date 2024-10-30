@@ -1,7 +1,12 @@
+// 1: aromatizador
+// 2: brinco
+// 3: chinelo
+// 4: lembrancinha
+
 const products = [
     {
         id: 1,
-        type: 'aromatizador',
+        type: 1,
         name: 'Aromatizador de melancia',
         description: 'Aromatizador perfeito para qualquer cômodo da sua casa',
         price: 14.00,
@@ -9,7 +14,7 @@ const products = [
     },
     {
         id: 2,
-        type: 'brinco',
+        type: 2,
         name: 'Brincos de argola prata',
         description: 'Brincos de argola banhados a prata',
         price: 50.00,
@@ -17,18 +22,18 @@ const products = [
     },
     {
         id: 3,
-        type: 'chinelo',
-        name: 'X-Bacon',
-        description: 'Chinelo personalizado',
+        type: 3,
+        name: 'chinelo de missanga',
+        description: 'Chinelo personalizado de missanga rosa',
         price: 18.00,
         lastPrice: 0,
         img: ''
     },
     {
         id: 4,
-        type: 'lembrancinha',
-        name: 'X-Tudo',
-        description: 'Lembrancinha personalizada',
+        type: 4,
+        name: 'Lembrancinha de aniversario',
+        description: 'Lembrancinha personalizada de aniversario',
         price: 25.00,
         lastPrice: 0,
         img: ''
